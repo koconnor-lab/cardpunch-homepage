@@ -42,10 +42,10 @@ function Nav() {
         </div>
 
         <div className="hidden md:flex items-center gap-3">
-          <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-900 px-4 py-2 transition-colors">
+          <a href="https://login.cardpunch.app" className="text-sm font-medium text-gray-700 hover:text-gray-900 px-4 py-2 transition-colors">
             Sign In
           </a>
-          <a href="#cta" className="text-sm font-semibold text-white bg-brand hover:bg-brand-dark px-5 py-2.5 rounded-full transition-colors">
+          <a href="https://login.cardpunch.app" className="text-sm font-semibold text-white bg-brand hover:bg-brand-dark px-5 py-2.5 rounded-full transition-colors">
             Start Free Trial
           </a>
         </div>
@@ -64,8 +64,8 @@ function Nav() {
           <a href="#pricing" onClick={() => setOpen(false)} className="block text-gray-700 py-1">Pricing</a>
           <a href="#testimonials" onClick={() => setOpen(false)} className="block text-gray-700 py-1">Testimonials</a>
           <div className="pt-2 space-y-2">
-            <a href="#" className="block text-center text-gray-700 font-medium py-2">Sign In</a>
-            <a href="#cta" className="block text-center text-white bg-brand font-semibold py-3 rounded-full">Start Free Trial</a>
+            <a href="https://login.cardpunch.app" className="block text-center text-gray-700 font-medium py-2">Sign In</a>
+            <a href="https://login.cardpunch.app" className="block text-center text-white bg-brand font-semibold py-3 rounded-full">Start Free Trial</a>
           </div>
         </div>
       )}
@@ -99,7 +99,7 @@ function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
           <a
-            href="#cta"
+            href="https://login.cardpunch.app"
             className="w-full sm:w-auto flex items-center justify-center gap-2 bg-brand hover:bg-brand-dark text-white font-semibold text-lg px-8 py-4 rounded-full transition-colors shadow-lg shadow-brand/25"
           >
             Start Free Trial
@@ -428,7 +428,7 @@ function Pricing() {
                 ))}
               </ul>
               <a
-                href="#cta"
+                href="https://login.cardpunch.app"
                 className={`block text-center font-semibold py-3 rounded-full mt-8 transition-colors ${
                   p.featured
                     ? "bg-white text-brand hover:bg-blue-50"
@@ -517,7 +517,7 @@ function CTA() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
               <a
-                href="#"
+                href="https://login.cardpunch.app"
                 className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white text-brand font-semibold text-lg px-8 py-4 rounded-full hover:bg-blue-50 transition-colors"
               >
                 Start Free Trial
